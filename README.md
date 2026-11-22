@@ -55,8 +55,8 @@ remain separately reported in its supplementary materials.
 
 ## Reproducibility and versioning
 
-The public package starts with software release `0.1.0`, independently of
-manuscript terminology. Commit SHA and archived release DOI should be reported
+The current Python package version is `0.1.0`, independently of
+manuscript terminology. A GitHub release and Zenodo DOI are not yet published. Commit SHA and archived release DOI should be reported
 in `Code and Data Availability` after the repository is published and archived.
 
 ## Citation and DOI
@@ -66,9 +66,9 @@ Do not add a placeholder or invented DOI to a manuscript.
 
 ## Licensing
 
-**A license has not yet been chosen by the author.** Until a license is added,
-GitHub availability alone does not grant a license for third-party reuse.
-The author should explicitly choose the intended license before public release.
+CERA is released under the **MIT License**. See [LICENSE](LICENSE).
+This license applies to the CERA software in this repository; externally sourced
+datasets and third-party implementations retain their respective licenses.
 
 ## Authors
 
