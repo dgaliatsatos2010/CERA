@@ -33,5 +33,6 @@ replay using this public package remains outstanding.
 
 ## Citation
 
-See [CITATION.cff](CITATION.cff). A Zenodo DOI can be added once
-the published GitHub release has been archived successfully.
+The initial release was archived through Zenodo. Its DOI is
+[10.5281/zenodo.24441562](https://doi.org/10.5281/zenodo.24441562).
+See [CITATION.cff](CITATION.cff) for machine-readable citation metadata.
