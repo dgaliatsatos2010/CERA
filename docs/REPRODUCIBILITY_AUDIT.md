@@ -13,8 +13,9 @@ SciPy 1.17.0, and scikit-learn 1.8.0.
 - Source example completed successfully.
 - The attempted **full 96-dataset prediction replay did not complete** within
   the available execution limit. This limitation must not be mistaken for a pass.
-- GitHub Actions will need to execute after repository creation; no remote CI
-  success is claimed here.
+- GitHub Actions ran the API test matrix successfully on 2026-11-22
+  (see https://github.com/dgaliatsatos2010/CERA/actions/runs/45024022666).
+  This CI pass does not constitute a full 96-dataset benchmark replay.
 
 These checks confirm packaging functionality on selected cases, not a claim of
 statistical validity, algorithmic novelty, or broad empirical superiority.
