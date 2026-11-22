@@ -1,0 +1,36 @@
+name: Publish CERA research software release
+on:
+  push:
+    paths:
+      - ".release-trigger"
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify release inputs
+        shell: bash
+        run: |
+          test -f LICENSE
+          test -f CITATION.cff
+          test -f RELEASE_NOTES.md
+          grep -q '^version = "0.1.0"$' pyproject.toml
+      - name: Create versioned GitHub release once
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          if gh release view "v0.1.0" >/dev/null 2>&1; then
+            echo "Release v0.1.0 already exists; no duplicate created."
+            exit 0
+          fi
+          gh release create "v0.1.0" \
+            --target "$GITHUB_SHA" \
+            --title "CERA 0.1.0 - Initial Research Software Release" \
+            --notes-file RELEASE_NOTES.md
