@@ -1,5 +1,7 @@
 # CERA — Holdout-Checked Projection Screening for Minority-Cluster Recovery
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24441562.svg)](https://doi.org/10.5281/zenodo.24441562)
+
 CERA is an **exploratory, fully unsupervised clustering method** that combines
 conservative density/graph clustering with robust feature-unit canonicalization
 and holdout-checked projection screening for selected minority-cluster settings.
@@ -56,13 +58,17 @@ remain separately reported in its supplementary materials.
 ## Reproducibility and versioning
 
 The current Python package version is `0.1.0`, independently of
-manuscript terminology. A GitHub release and Zenodo DOI are not yet published. Commit SHA and archived release DOI should be reported
-in `Code and Data Availability` after the repository is published and archived.
+manuscript terminology. The [GitHub v0.1.0 release](https://github.com/dgaliatsatos2010/CERA/releases/tag/v0.1.0)
+was published on 2026-11-22 and archived via Zenodo.
+The public archive DOI is [10.5281/zenodo.24441562](https://doi.org/10.5281/zenodo.24441562).
+The full 96-dataset benchmark replay with the public package remains outstanding.
 
 ## Citation and DOI
 
-See [`CITATION.cff`](CITATION.cff). **A Zenodo DOI has not yet been minted.**
-Do not add a placeholder or invented DOI to a manuscript.
+Please cite the Zenodo archive: **[10.5281/zenodo.24441562](https://doi.org/10.5281/zenodo.24441562)**.
+The machine-readable citation metadata is in [`CITATION.cff`](CITATION.cff).
+The archive currently covers the source code and documentation, not the complete
+96-dataset benchmark or all third-party comparison artifacts.
 
 ## Licensing
 
