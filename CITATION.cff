@@ -1,4 +1,4 @@
-message: "If you use CERA in research, please cite the archived software release once its DOI is assigned."
+message: "If you use CERA in research, please cite the archived software DOI below."
 cff-version: 1.2.0
 title: "CERA: Holdout-Checked Projection Screening for Minority-Cluster Recovery"
 type: software
@@ -7,7 +7,11 @@ authors:
     given-names: "Dimitrios"
     orcid: "https://orcid.org/0009-0005-5232-1425"
 version: "0.1.0"
+date-released: 2026-11-22
+doi: 10.5281/zenodo.24441562
+url: "https://doi.org/10.5281/zenodo.24441562"
 repository-code: "https://github.com/dgaliatsatos2010/CERA"
+license: MIT
 abstract: >-
   CERA is an exploratory unsupervised clustering implementation with a
   holdout-checked projection screening mechanism for some minority-cluster settings.
